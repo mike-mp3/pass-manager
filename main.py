@@ -19,7 +19,7 @@ print("*" * 10 + " <Password manager> " + "*" * 10)
 print("Write down how many passwords you need")
 c = int(input())
 while c != 0:
-    d.write(f'{main()} + \n')
+    d.write(f'{main()}\n')
     c -= 1
 print('Done! Saves go to data.txt')
 d.close()
